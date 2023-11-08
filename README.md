@@ -15,7 +15,7 @@ This was my first individual project that I had to present in assembler, the tru
 ![image](https://github.com/facundh23/Js-calculator/assets/90207514/bf5d6150-4de1-4222-93da-334454aaac6e)
 
 Demo:https://js-calculator-rouge.vercel.app/
-Repo: 
+Repo: https://github.com/facundh23/Js-calculator
 
 I hope you like it
 
