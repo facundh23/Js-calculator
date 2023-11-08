@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@600&family=Lato:wght@400;700&family=Montserrat:wght@400;700&family=Playfair+Display:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <title>JS Calculator</title>
+  </head>
+
+  <body>
+    <header>
+      <h1 class="calculator_title fade-in">
+        Assembler First Individual Project: JS Calculator
+      </h1>
+    </header>
+    <main class="principal fade-in">
+      <div class="operations hide">
+        <h2>Operation Records</h2>
+        <ul id="operations"></ul>
+      </div>
+      <div class="container">
+        <div class="first-row">
+          <label id="switch">
+            <input type="checkbox" />
+            <span class="slider round"></span>
+          </label>
+        </div>
+        <div class="second-row">
+          <span class="previous"></span>
+          <span id="result">0</span>
+        </div>
+        <div class="third-row rows">
+          <button class="operator-button" id="refresh" value="C">C</button>
+          <button class="operator-button" value="changed" id="changed">
+            ∓
+          </button>
+          <button class="operator-button" value="%" id="remainder">%</button>
+          <button class="operator-button" value="/" id="division">/</button>
+        </div>
+        <div class="fourth-row rows">
+          <button class="number-button numbers_button" id="seven" value="7">
+            7
+          </button>
+          <button class="number-button numbers_button" value="8" id="eight">
+            8
+          </button>
+          <button class="number-button numbers_button" value="9" id="nine">
+            9
+          </button>
+          <button class="operator-button" id="multiplication" value="X">
+            X
+          </button>
+        </div>
+        <div class="fifth-row rows">
+          <button class="number-button numbers_button" value="4" id="four">
+            4
+          </button>
+          <button class="number-button numbers_button" value="5" id="five">
+            5
+          </button>
+          <button class="number-button numbers_button" value="6" id="six">
+            6
+          </button>
+          <button class="operator-button" value="-" id="substraction">-</button>
+        </div>
+        <div class="sixth-row rows">
+          <button class="number-button numbers_button" value="1" id="one">
+            1
+          </button>
+          <button class="number-button numbers_button" value="2" id="two">
+            2
+          </button>
+          <button class="number-button numbers_button" value="3" id="three">
+            3
+          </button>
+          <button class="operator-button" value="+" id="addition">+</button>
+        </div>
+        <div class="seventh-row rows">
+          <button class="number-button numbers_button" value="0" id="zero">
+            0
+          </button>
+          <button class="number-button numbers_button" value=".">.</button>
+          <button class="table operator-button" id="tableBtn">Calc</button>
+          <button class="operator-button" value="=" id="equal">=</button>
+        </div>
+      </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
